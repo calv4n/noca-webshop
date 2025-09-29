@@ -1,0 +1,36 @@
+<section>
+
+<div id="product">
+    <div><img class="cloth-wp" src="/images/clothing/{{product.img}}" alt="clothing"></div>
+
+    <div>
+    <div class="flex_product">
+        <div class="product_details">
+            <h3>{{product.name}}</h3>
+            <p>{{product.price}}</p>        
+        </div>
+    
+        <div class="like">
+            <div id="like-image"  class="like_icon">
+                <img id="like-icon" src="/images/heart.png" alt="heart">
+
+            </div>
+        </div>
+    </div>
+    
+    <select id="dropdown" name="size">
+        <option value="0" selected="selected">SIZE</option>
+        <option value="1">XS</option>
+        <option value="2">S</option>
+        <option value="3">M</option>
+        <option value="4">L</option>
+        <option value="5">XL</option>
+    </select>    
+    
+    <div class="add_to_cart_div">
+            <a class="add_to_cart" type="submit">ADD TO CART</a>
+    </div>
+    </div>
+</div>
+
+</section>

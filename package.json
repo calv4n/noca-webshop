@@ -1,0 +1,21 @@
+{
+  "name": "noca",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch -r dotenv/config server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-session": "^2.0.0",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.1.0"
+  },
+  "devDependencies": {
+    "connect-livereload": "^0.6.1",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.32.0",
+    "livereload": "^0.9.3"
+  }
+}
